@@ -54,7 +54,7 @@
       margin-left: 12px;
     }
 </style>
-<script ></script>
+
 <body>
   <!-- เริ่มส่วนหัว navigator -->
     <header class="p-3 mb-3 border-bottom">
@@ -97,7 +97,7 @@
             <img src="sara.png" width-max >
       <!-- จบส่วนภาพสไลด์ -->
        <!-- เริ่มฟิวเต้อ -->
-       <body>
+      
         <div class="container px-4 py-5" id="custom-cards">
             <h2 class="pb-2 border-bottom">ของดีประจำจังหวัดสระบุรี</h2>
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -169,28 +169,30 @@
           </div> 
           <!-- จบฟิวเต้อ -->
           <!-- เริ่มคำขวัญ -->
-          <div class="card">
-            <div class="card-header">
-              <h4>คำขวัญจังหวัดสระบุรี</h4>
-            </div>
-            <div class="card-body">
-              <blockquote class="blockquote mb-0">
-                <p>" พระพุทธบาทสูงค่า เขื่อนป่าสักชลสิทธิ์
-                  ฐานผลิตอุตสาหกรรม เกษตรนำล้ำแหล่งเที่ยว
-                  หนึ่งเดียวกะหรี่ปั๊บนมดี ประเพณีตักบาตรดอกไม้งาม
-                  เหลืองอร่ามทุ่งทานตะวัน ลือลั่นเมืองชุมทาง "</p>
-                <footer class="blockquote-footer"><cite title="Source Title"></cite></footer>
-              </blockquote>
+          <div class="container mt-4"> <!-- เพิ่ม container เพื่อจำกัดความกว้างของ card -->
+            <div class="card mx-auto my-3" style="max-width: 800px;"> <!-- ใช้ mx-auto และ my-3 เพื่อให้มีช่องว่าง -->
+              <div class="card-header">
+                <h4>คำขวัญจังหวัดสระบุรี</h4>
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>"พระพุทธบาทสูงค่า เขื่อนป่าสักชลสิทธิ์
+                    ฐานผลิตอุตสาหกรรม เกษตรนำล้ำแหล่งเที่ยว
+                    หนึ่งเดียวกะหรี่ปั๊บนมดี ประเพณีตักบาตรดอกไม้งาม
+                    เหลืองอร่ามทุ่งทานตะวัน ลือลั่นเมืองชุมทาง"</p>
+                  <footer class="blockquote-footer"><cite title="Source Title"></cite></footer>
+                </blockquote>
+              </div>
             </div>
           </div>
-            </div>
-          </div>
+          
+          
           <!-- จบคำขวัญ -->
            <br>
           <form class="ma">
           แสดงความคิดเห็น: <input type="text" name="แสดงความคิดเห็น"  ><br>
             </form> 
-       </body> 
+     
        
        
 
@@ -210,4 +212,7 @@
           <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-telephone"></i><use xlink:href="#facebook"></use></svg></a></li>
         </ul>
       </footer>
-        <!-- จบส่วน footer -->
+        <!-- จบส่วน footer -->  
+        
+      </body> 
+      </html>
